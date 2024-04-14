@@ -1,0 +1,30 @@
+{
+  "name": "this_world_is_made_for_monsters",
+  "version": "1.0.0",
+  "description": "Analysis of the short story by M. Rickert.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "this",
+    "world",
+    "is",
+    "made",
+    "for",
+    "monsters",
+    "rickert",
+    "short",
+    "story",
+    "science",
+    "fiction"
+  ],
+  "author": "Claudia Suarez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-ejs-layouts": "^2.5.1",
+    "path": "^0.12.7"
+  }
+}
