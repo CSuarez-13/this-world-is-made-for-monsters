@@ -10,6 +10,8 @@ app.set("view engine", "ejs");
 app.set("layout", "layouts/main");
 app.use(expressLayouts);
 
+app.set("views", path.join(__dirname, "views"));
+
 const generalController = require("./controllers/generalController");
 app.use("/", generalController);
 
