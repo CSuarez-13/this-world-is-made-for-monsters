@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 
 router.get("/appearances", (req, res) => {
     res.render("general/aliensAppearance", {
-        title: "The Extraterrestrial Aesthetic: Analyzing Alien Appearance"
+        title: "The Extraterrestrial Aesthetic"
     })
 })
 
@@ -21,13 +21,13 @@ router.get("/generations", (req, res) => {
 
 router.get("/xenophilia", (req, res) => {
     res.render("general/xenophilia", {
-        title: "Embracing Otherness: Xenophilia in 'This World Is Made for Monsters'"
+        title: "Embracing Otherness: Xenophilia"
     })
 })
 
 router.get("/xenophobia", (req, res) => {
     res.render("general/xenophobia", {
-        title: "Confronting Fear: Xenophobia in 'This World Is Made for Monsters'"
+        title: "Confronting Fear: Xenophobia"
     })
 })
 
