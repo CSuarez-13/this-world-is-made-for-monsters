@@ -1968,6 +1968,10 @@ html {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .z-\[-1\] {
   z-index: -1;
 }
@@ -1994,6 +1998,10 @@ html {
 
 .mr-10 {
   margin-right: 2.5rem;
+}
+
+.mr-16 {
+  margin-right: 4rem;
 }
 
 .mr-2 {
